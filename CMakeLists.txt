@@ -1,6 +1,15 @@
 cmake_minimum_required(VERSION 3.18)
 
 project(RakNet)
+unset(CMAKE_CXX_FLAGS )
+unset(CMAKE_CXX_LINK_FLAGS )
+
+set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+
+if(UNIX)
+	add_compile_options(-w)
+endif()
 
 if(NOT APPLE)
 
