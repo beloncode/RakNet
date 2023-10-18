@@ -1,5 +1,4 @@
 cmake_minimum_required(VERSION 3.18)
-project(RakNetShared)
 
 include_directories(${RAKNET_INTERNAL_INCLUDE_DIRS}) 
 

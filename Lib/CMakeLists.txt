@@ -10,7 +10,6 @@ FILE(GLOB RAKNET_CPP_SRCS ${RakNet_SOURCE_DIR}/Source/*.cpp)
 if(UNIX)
 	add_compile_options(-fpermissive)
 	find_package(Threads REQUIRED)
-elseif()
 endif()
 
 if(RAKNET_ENABLE_STATIC)
